@@ -1,0 +1,18 @@
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence">
+    <persistence-unit name="MotorDepot">
+        <provider>
+            org.eclipse.persistence.jpa.PersistenceProvider
+        </provider>
+
+        <jta-data-source>jdbc/__motordepot</jta-data-source>
+
+        <class>motordepot.entities.Car</class>
+        <class>motordepot.entities.Driver</class>
+        <class>motordepot.entities.Passage</class>
+        <class>motordepot.entities.Request</class>
+        <class>motordepot.entities.Dispatcher</class>
+
+
+    </persistence-unit>
+
+</persistence>

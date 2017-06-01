@@ -1,0 +1,46 @@
+.img-container {
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-container > img {
+
+    max-height:100%; max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description-img-container {
+    width: 350px;
+    height: 170px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+}
+
+.footer > span {
+    color: #BBBBBB;
+}
+
+.center-children {
+  text-align: center;
+}
+
+.top-center-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+span.glyphicon-link {
+    font-size: 4em;
+}
+

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="motordepot_ejb_servlet">
+    <output-path>$PROJECT_DIR$/out/artifacts/motordepot_ejb_servlet</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="motordepot_ejb_servlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="motordepot_ejb_servlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.mysql.jdbc_5.1.5" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="log4j-1.2.13" />
+          <element id="library" level="project" name="org.eclipse" />
+          <element id="javaee-facet-resources" facet="motordepot_ejb_servlet/ejb/EJB" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
